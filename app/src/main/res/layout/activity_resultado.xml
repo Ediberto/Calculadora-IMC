@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Resultado">
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textColor="@color/purple_700"/>
+    <TextView
+        android:id="@+id/txtRecebeNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="24dp"
+        android:textColor="@color/purple_700"/>
+    <TextView
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seu IMC é = "
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textColor="@color/purple_500"/>
+    <TextView
+        android:id="@+id/textview_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="@color/purple_500"/>
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        tools:text="Classificação Normal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:text="TABELA DE CLASSIFICAÇÃO"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="16dp"
+        android:textColor="@color/purple_700"
+        android:text="MENOR QUE 18.5  =  ABAIXO DO PESO"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="14dp"
+        android:textColor="@color/purple_700"
+        android:text="MAIOR OU IGUAL A 18.5 E MENOR OU IGUAL A 24.9 = NORMAL"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="14dp"
+        android:textColor="@color/purple_700"
+        android:text="MAIOR OU IGUAL A 25 E MENOR OU IGUAL A 29.9 = SOBREPESO"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="14dp"
+        android:textColor="@color/purple_700"
+        android:text="MAIOR OU IGUAL A 30 E MENOR OU IGUAL A 39.9 = OBESIDADE"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="14dp"
+        android:textColor="@color/purple_700"
+        android:text="MAIOR OU IGUAL A 40 = OBESIDADE GRAVE"/>
+</LinearLayout>
