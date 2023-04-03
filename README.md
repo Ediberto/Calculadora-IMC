@@ -2,8 +2,8 @@
 Calculadora do IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com o desenvolvimento Android, usando a linguagem de Programação KOTLIN.
 Eu participei do Desafio 10D Challenge na Comunidade DevSpace e consegui sair do ZERO.
 
-<img scr="/result/image1.jpeg" width="260">&emsp;
-<img scr="/result/image2.jpeg" width="260">&emsp;
+<img scr="/result/image1.jpeg" width="260">
+<img scr="/result/image2.jpeg" width="260">
 
 Tecnologies
 * Kotlin
